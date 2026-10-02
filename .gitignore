@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variables - may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Sensitive files
+*.pem
+*.key
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
